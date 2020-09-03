@@ -6,7 +6,7 @@ getOriginKey().then(originKey => {
             environment: 'test',
             originKey: originKey, // Mandatory. originKey from Customer Area
             paymentMethodsResponse,
-            removePaymentMethods: ['paysafecard', 'c_cash']
+            removePaymentMethods: ['wechatpayQR','alipay_wap']
         });
 
         // 2. Create and mount the Component
